@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkturquoise;
+}
+#myH1{
+    font-size: 5rem;
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 8px solid;
+    border-radius: 55px;
+    background-color: aliceblue;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 6px;
+    min-width: 120px;
+    border: black;
+    cursor: pointer;
+    color: white;
+}
+#laps {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.lap-time {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+#lapTimes li {
+    background-color: lightgray;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#startbtn{
+    background-color: green;
+}
+#stopbtn{
+    background-color: brown;
+}
+#resetbtn{
+    background-color: orange;
+}
+#resumebtn{
+    background-color: greenyellow;
+}
+#lapbtn{
+    background-color: rgba(0, 20, 118, 0.782);
+}
